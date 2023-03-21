@@ -13,6 +13,8 @@ The minimum configuration required in order to run this project are [installing 
 
 Please ensure that's all working fine before continuing.
 
+NOTES: indonesia-latest.osm.pbf is too big to extract for polylines right now.
+
 # Run a Build
 
 To run a complete build, execute the following commands:
