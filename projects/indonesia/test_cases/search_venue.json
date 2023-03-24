@@ -1,0 +1,26 @@
+{
+  "name": "/v1/search venues",
+  "priorityThresh": 1,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "in": {
+        "text": "monas"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Monumen Nasional",
+            "country_a": "IDN",
+            "country": "Indonesia",
+            "region": "Jakarta",
+            "region_a": "JK",
+            "locality": "Jakarta Pusat"
+          }
+        ]
+      }
+    }
+  ]
+}
